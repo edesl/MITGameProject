@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0aa9835c2f8f4a9b2b5ff51784391, type: 3}
+  m_Name: LevelConfiguration
+  m_EditorClassIdentifier: 
+  creationDate: 1432332545
+  _active: 1
+  levels:
+  - _sceneObject: {fileID: 102900000, guid: 824bfc287b02a4ffe8da0a5e249c9f07, type: 3}
+    _scenePath: Assets/Scenes/LevelSelectScene.unity
+    _sceneName: LevelSelectScene
+    scene: 
+    parent: {fileID: 11400000}
+    order: 0
+    name: Level Select
+    type: 0
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  - _sceneObject: {fileID: 102900000, guid: 88202fbbdba2a47f09a58db9983b6fb6, type: 3}
+    _scenePath: Assets/Scenes/MainScene.unity
+    _sceneName: MainScene
+    scene: 
+    parent: {fileID: 11400000}
+    order: 10
+    name: Level One
+    type: 1
+    arguments: 
+    groupId: 0
+    extensionGUID: 
+    lockedByDefault: 0
+  groups: []
+  extensions: []
+  version: 1
+  flag: 0
