@@ -23,7 +23,7 @@ public class Player : MonoBehaviour {
 
 		gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpMax, 2);
 		jumpVelocity = Mathf.Abs(gravity) * timeToJumpMax;
-		Debug.Log ("Gravity: "+gravity + " Jump Velocity: "+jumpVelocity);
+//		Debug.Log ("Gravity: "+gravity + " Jump Velocity: "+jumpVelocity);
 	}
 
 	void Update (){
